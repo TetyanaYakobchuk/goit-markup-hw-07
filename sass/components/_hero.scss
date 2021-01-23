@@ -1,29 +1,34 @@
 .hero-section {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding: 200px 0px;
     text-align: center;
-    background-color: $bgr-primery-dark;
-    color: $primery-white-color;
+    background-color: rgba(47, 48, 58, 0.4);
     height: 600px;
     max-width: 1600px;
     display: block;
     margin: 0 auto;
     justify-content: center;
-    background-image: linear-gradient(to right, $overlay-color, $overlay-color), url('../images/bgd-main-opt.jpg');
+    background-image: linear-gradient
+    ( rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
+    url('/images/bgd-main-opt.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-  }
+    //( $overlay-color, $overlay-color)
+}
+  
   .hero-title {
+    color: $primery-white-color;
+    width: 696px;
     margin-top: 0;
     margin-bottom: 30px;
     font-weight: 900;
-    font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    //text-align: center;
   }
-  
+ 
   .hero-button {
     display: inline-block;
     padding: 10px 32px;
@@ -35,5 +40,6 @@
     color: $primery-white-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition: $transition-property, $transition-duration-timing;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
   
