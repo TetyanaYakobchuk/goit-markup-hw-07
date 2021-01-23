@@ -1,7 +1,7 @@
 .footer {
     width: auto;
-    background: $bgr-primery-dark;
-    margin: auto;
+    height: 252px;
+    background-color: $bgr-primery-dark;
   }
   .footer .container {
     padding-top: 60px;
@@ -11,7 +11,6 @@
   }
   .footer-container {
     width: 1200px;
-    height: 705px;
     padding: 94px 0;
     margin: 0 auto;
     padding-top: 60px;
@@ -20,7 +19,7 @@
     align-items: baseline;
   }
   .contacts-box {
-    margin-right: 90px;
+    margin-right: 80px;
   }
   .logo.l-white {
     margin-bottom: 20px;
@@ -52,20 +51,22 @@
     margin-bottom: 9px;
   }
   .contacts-footer {
+    //display: inline-block;
     font-style: normal;
     font-weight: $mainFontWeight;
     font-size: $mainFontSize;
     line-height: 1.71;
     color: $txt-contact;
     transition: $transition-property, $transition-duration-timing;
-  }
-  .contacts-footer:not(:last-child) {
-    margin-bottom: 9px;
+    &:not(:last-child) {
+      margin-bottom: 9px;
+    }
   }
   
+  
   .footer-social {
-    margin-right: 93px;
-  }
+    margin-right: 99px;
+  
   .footer-social .icon-item:not(:first-child) {
     margin-left: 10px;
   }
