@@ -10,7 +10,7 @@
 }
   .client-icon {
     display: flex;
-    //justify-content: center;
+    justify-content: center;
     align-items: center;
     width: 170px;
     height: 90px;
@@ -18,13 +18,13 @@
     box-sizing: border-box;
     border-radius: 4px;
     color: $icons-color;
-    //cursor: pointer;
     //transition: $transition-property, $transition-duration-timing;
-  &:hover,
-  &:focus,
-  &:hover svg,
-  &:focus svg {
-    //border: 1px solid $accent-color;
+    &:hover,
+    &:focus
+    // &:hover svg,
+    // &:focus svg {
+      {
+    border: 1px solid $accent-color;
     color: $accent-color;
     //transition: $transition-property, $transition-duration-timing;
   }
