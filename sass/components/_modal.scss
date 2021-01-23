@@ -44,22 +44,24 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: $primery-white-color;
     transition: $transition-property, $transition-duration-timing;
-  }
-  
-  .close-modal :hover,
-  .close-modal :focus {
+    &:hover
+    &:focus {
     cursor: pointer;
   }
+  }
+  
+  
   .close-icon {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    &:hover,
+    &:focus {
+      fill: $accent-color; 
+    }
   }
-  .close-icon:hover,
-  .close-icon:focus {
-    fill: $accent-color; 
-  }
+ 
   
   .modal-call-to-action 
   {
@@ -83,12 +85,13 @@
     display: flex;
     flex-direction: column;
     transition: all, $transition-duration-timing;
-    
   }
+
   .form-group:focus-within,
   .form-group:hover {
     color: $accent-color;
   }
+
   .form-group:focus-within svg,
   .form-group:hover svg {
     fill: $accent-color;
@@ -114,22 +117,13 @@
     line-height: 1.14;
     letter-spacing: 0.01em;
     transition: border-color, $transition-duration-timing;
-  }
-  .modal-input:focus-within,
-  .modal-input:hover,
-  .modal-comment:focus-within,
-  .modal-comment:hover
-   {
-    border-color: $accent-color;
-    outline: none;
-    
-  }
-  .modal-input:focus,
-  .modal-comment:focus,
-  .modal-input:hover,
-  .modal-comment:hover {
-    cursor: pointer;
-    
+    &:focus-within,
+    &:hover
+     {
+      border-color: $accent-color;
+      outline: none;
+      cursor: pointer;
+    }
   }
   
   .modal-icon-container {
@@ -154,6 +148,13 @@
     line-height: 1.14;
     letter-spacing: 0.01em;
     transition: border-color, $transition-duration-timing;
+    &:focus-within,
+    &:hover
+   {
+    border-color: $accent-color;
+    outline: none;
+    cursor: pointer;
+    }
   }
   .modal-comment::placeholder {
     font-family: $mainFont;
@@ -238,11 +239,11 @@
     border: 0px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-  }
-  
-  .modal-submit:hover,
-  .modal-submit:focus {
+    &:hover,
+    &:focus {
     background-color: $accent-color;
     cursor: pointer;
   }
+  }
+
   
