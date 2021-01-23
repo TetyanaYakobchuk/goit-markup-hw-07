@@ -18,13 +18,20 @@
   }
   
   .btn-portfolio {
-    display: inline-block;
-    border: 0;
-    border-radius: 4px;
-    padding: 6px 22px;
-    text-align: center;
-    background-color: $background;
-    color: $txt-title-color;
+  font-family: $mainFont;
+  font-style: $mainFontStyle;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: $mainLetterSpacing;
+  color: $txt-title-color;
+  display: inline-block;
+  border: 0;
+  border-radius: 4px;
+  padding: 6px 22px;
+  background-color: $background;
+  color: $txt-title-color;
     &:hover,
     &:focus {
       background-color: $accent-color;
