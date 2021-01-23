@@ -5,30 +5,32 @@
   .client-logo {
     display: flex;
   }
-
+  .client-logo li + li{
+    margin-left: 30px;
+}
   .client-icon {
     display: flex;
-    justify-content: center;
+    //justify-content: center;
     align-items: center;
     width: 170px;
-   
     height: 90px;
     border: 1px solid $icons-color;
     box-sizing: border-box;
     border-radius: 4px;
     color: $icons-color;
-    transition: $transition-property, $transition-duration-timing;
+    //cursor: pointer;
+    //transition: $transition-property, $transition-duration-timing;
   &:hover,
   &:focus,
   &:hover svg,
   &:focus svg {
-    border: 1px solid $accent-color;
+    //border: 1px solid $accent-color;
     color: $accent-color;
-    transition: $transition-property, $transition-duration-timing;
+    //transition: $transition-property, $transition-duration-timing;
   }
-  &:not(:nth-child(6n)) {
-    margin-right: 30px;
-  }
+  // &:not(:nth-child(6n)) {
+  //   margin-right: 30px;
+  // }
 }
  
   .client-title {
