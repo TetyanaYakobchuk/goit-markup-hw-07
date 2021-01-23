@@ -3,12 +3,14 @@
     height: 252px;
     background-color: $bgr-primery-dark;
   }
+
   .footer .container {
     padding-top: 60px;
     padding-bottom: 60px;
     display: flex;
     align-items: baseline;
   }
+
   .footer-container {
     width: 1200px;
     padding: 94px 0;
@@ -18,26 +20,29 @@
     display: flex;
     align-items: baseline;
   }
+
   .contacts-box {
     margin-right: 80px;
   }
+
   .logo.l-white {
     margin-bottom: 20px;
     color: $primery-white-color;
     font-weight: bold;
     font-size: 26px;
     font-family: $logoFont;
-    
   }
+
   .logo-studio {
     color: $accent-color;
   }
+
   .main-address {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    
   }
+
   .address-card {
     font-style: normal;
     font-weight: $mainFontWeight;
@@ -46,10 +51,12 @@
     color: $primery-white-color;
     margin-bottom: 9px;
   }
+
   .address-card,
   .contacts-footer {
     margin-bottom: 9px;
   }
+
   .contacts-footer {
     //display: inline-block;
     font-style: normal;
@@ -66,20 +73,24 @@
   
   .footer-social {
     margin-right: 99px;
+  }
   
   .footer-social .icon-item:not(:first-child) {
     margin-left: 10px;
   }
+
   .footer-social .icon-link {
     fill: $primery-white-color;
     background-color: $bgr-icon;
     transition: $transition-property, $transition-duration-timing;
   }
+
   .footer-social .icon-link:hover,
   .footer-social .icon-link:focus {
     background-color: $accent-color;
     transition: $transition-property, $transition-duration-timing;
   }
+
   .appeal {
     margin-bottom: 20px;
     font-family: $mainFont;
@@ -90,10 +101,12 @@
     text-transform: uppercase;
     color: $primery-white-color;
   }
+
   .icon-box {
     display: flex;
     justify-content: space-between;
   }
+
   .icon-link {
     display: flex;
     justify-content: center;
@@ -104,11 +117,13 @@
     fill: rgba(175, 177, 184, 1);
     transition: $transition-property, $transition-duration-timing;
   }
+
   .icon-link:hover,
   .icon-link:focus {
     background-color: $accent-color;
     fill: $primery-white-color;
   }
+
   .logo-social {
     width: 20px;
     height: 20px;
@@ -118,6 +133,7 @@
   .contacts-footer {
     margin-bottom: 9px;
   }
+
   .contacts-footer {
     font-style: $mainFontStyle;
     font-weight: $mainFontWeight;
@@ -126,6 +142,7 @@
     color: $txt-contact;
     transition: $transition-property, $transition-duration-timing;
   }
+
   .footer-call-to-action {
     margin-bottom: 20px;
     font-weight: $boldFontWeight;
@@ -151,6 +168,7 @@
     background-color: transparent;
     min-width: 358px;
   }
+
   .footer-subscribe-email,
   .footer-subscribe-email::placeholder {
     font-weight: $mainFontWeight;
@@ -159,6 +177,7 @@
     letter-spacing: $mainLetterSpacing;
     color: $footer-subscribe;
   }
+
   .footer-subscribe-button {
     transition: $transition-property, $transition-duration-timing;
     padding: 10px 28px;
@@ -175,6 +194,7 @@
     border-radius: 4px;
     border-width: 0;
   }
+  
   .footer-subscribe-button:hover,
   .footer-subscribe-button:focus {
     background-color: $accent-color;
