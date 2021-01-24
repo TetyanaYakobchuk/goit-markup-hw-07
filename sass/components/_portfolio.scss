@@ -48,6 +48,13 @@
     flex-wrap: wrap;
     margin: -15px;
   }
+  .projects:last-child {
+    &:hover .portfolio-image-caption,
+    &:focus-within .portfolio-image-caption{
+    cursor: pointer;
+    transform: translateY(0);
+  }
+}
   
   .projects {
     width: 370px;
@@ -76,10 +83,12 @@
       1px 4px 6px rgba(0, 0, 0, 0.16);
       transform: translateY(0%);
     }
+
   .portfolio-image-wrapper {
     position: relative;
     overflow: hidden;
   }
+
   .portfolio-image-caption {
     display: flex;
     position: absolute;
