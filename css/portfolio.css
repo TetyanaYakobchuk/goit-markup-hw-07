@@ -873,7 +873,7 @@ nav {
 }
 
 .contacts-box {
-  margin-right: 80px;
+  margin-right: 75px;
 }
 
 .logo.l-white {
@@ -1628,6 +1628,13 @@ nav {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: -15px;
+}
+
+.projects:last-child:hover .portfolio-image-caption,
+.projects:last-child:focus-within .portfolio-image-caption {
+  cursor: pointer;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 
 .projects {
